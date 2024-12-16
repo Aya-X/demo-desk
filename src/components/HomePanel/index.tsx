@@ -4,13 +4,13 @@ import Paper from "@mui/material/Paper";
 import {
   Phone,
   MusicNote,
-  Bluetooth,
-  Email,
+  Curtains,
+  LightbulbCircle,
   Close,
   DoNotDisturb,
   Home,
   Mic,
-  Wifi,
+  AcUnit,
   Settings,
   CleaningServices,
   MoreHoriz,
@@ -60,10 +60,10 @@ export default function HomePanel() {
         </Grid>
 
         <Grid size={1.5}>
-          <ControlButton icon={<Bluetooth />} label="藍牙" />
+          <ControlButton icon={<Curtains />} label="窗簾" />
         </Grid>
         <Grid size={1.5}>
-          <ControlButton icon={<Email />} label="信箱" />
+          <ControlButton icon={<LightbulbCircle />} label="燈光" />
         </Grid>
         <Grid size={3}>
           <ControlButton icon={<Close />} label="關閉螢幕" />
@@ -80,7 +80,7 @@ export default function HomePanel() {
           <ControlButton icon={<Mic />} label="語音" />
         </Grid>
         <Grid size={1.5}>
-          <ControlButton icon={<Wifi />} label="WiFi" />
+          <ControlButton icon={<AcUnit />} label="空調" />
         </Grid>
         <Grid size={3}>
           <ControlButton icon={<Settings />} label="系統設定" />
