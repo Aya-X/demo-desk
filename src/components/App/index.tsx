@@ -59,15 +59,6 @@ const theme = createTheme({
       secondary: colors.text.secondary,
       disabled: colors.text.disabled,
     },
-    action: {
-      active: colors.action.active,
-      hover: colors.action.hover,
-      selected: colors.action.selected,
-      disabled: colors.action.disabled,
-      disabledBackground: colors.action.disabledBackground,
-      focus: colors.action.focus,
-    },
-    divider: colors.other.divider,
   },
 });
 

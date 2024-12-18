@@ -35,8 +35,8 @@ export default function HomePanel() {
         width: "100%",
         height: "100%",
         background: `linear-gradient(135deg, 
-          ${colors.primary.dark} 0%, 
-          ${colors.secondary.dark} 100%
+          ${colors.primary[800]} 0%, 
+          ${colors.secondary[900]} 100%
         )`,
       }}
     >
